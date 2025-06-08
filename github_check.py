@@ -19,7 +19,7 @@ headers = {
 response = requests.get(url, headers=headers)
 
 # Streamlit 앱
-st.title("과제 제출 확인")
+st.title("보고서 제출 확인")
 
 if response.status_code == 200:
     files = response.json()
